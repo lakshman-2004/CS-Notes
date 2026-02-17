@@ -1,4 +1,4 @@
-# Cybersecurity Overview
+# 1.1 Cybersecurity Overview
 
 The fundamentals of cybersecurity including its scope, importance, and core principles. It also includes conceptual diagrams, real-world attack case studies, and curated learning resources.
 
@@ -218,18 +218,211 @@ Potential Targets:
 
 ---
 
-## 📚 References & Learning Resources
+# 1.2 Cyber Threats and Vulnerabilities
 
-### Books
+## 📌 Introduction
 
-* The Web Application Hacker’s Handbook
-* Cybersecurity Essentials
-* Hacking: The Art of Exploitation
+Cyber threats are malicious attempts to access, damage, or disrupt digital systems by exploiting vulnerabilities in software, networks, or human behavior. Understanding these threats helps organizations build stronger defenses and protect critical information.
 
-### Online Platforms
+---
 
-* OWASP Learning Resources
-* TryHackMe
-* Hack The Box
-* Coursera Cybersecurity Courses
+## 🧨 Types of Cyber Threats
+
+### Insider Threats
+
+Threats originating from authorized individuals within an organization such as employees or contractors.
+They may intentionally misuse access or accidentally expose sensitive data.
+
+**Types**
+ * Malicious employee stealing data
+ * Negligent user exposing credentials
+ * Compromised insider account
+   
+**Impact**
+ * Data theft
+ * Sabotage
+ * Intellectual property loss
+
+**Why dangerous**
+Insiders already have access privileges.
+
+**Mitigation**
+ * Access monitoring
+ * Least privilege
+ * Behavior analytics
+
+**Key Point:** Trusted access can become a security risk.
+
+---
+
+### Phishing
+
+A social engineering technique where attackers trick users into revealing sensitive information through fake messages or websites.
+
+**Methods**
+ * Fake emails
+ * Malicious links
+ * Spoofed websites
+
+**Variants**
+ * Spear phishing (targeted)
+ * Whaling (executives)
+ * Smishing (SMS)
+ * Vishing (voice)
+
+**Impact**
+ * Credential theft
+ * Malware installation
+
+**Defense**
+ * User awareness
+ * Email filtering
+ * Multi-factor authentication
+   
+**Key Point:** Targets human trust rather than technical weaknesses.
+
+---
+
+### Supply Chain Attacks
+
+Attacks that compromise third-party vendors or software dependencies to reach the main target system.
+
+**How it works**
+Instead of attacking the target directly:
+ * Malware inserted into updates
+ * Vendor credentials stolen
+ * Dependency poisoning
+
+**Impact**
+ * Large-scale infiltration
+ * Hard to detect
+
+**Defense**
+ * Vendor audits
+ * Code signing
+ * Dependency scanning
+
+**Key Point:** Exploits trusted relationships and distribution channels.
+
+---
+
+### Malware
+
+Malicious software designed to harm systems or steal data.
+
+**Examples**
+
+* Virus
+* Worm
+* Trojan
+* Ransomware
+* Spyware
+
+**Effects**
+ * Data destruction
+ * Surveillance
+ * Encryption for ransom
+
+**Defense**
+ * Antivirus
+ * Sandboxing
+ * Updates
+
+**Key Point:** Used for disruption, surveillance, or financial gain.
+
+---
+
+### Advanced Persistent Threats (APTs)
+
+Sophisticated long-term attacks conducted by skilled adversaries, often targeting strategic assets.
+
+**Key Characteristics**
+
+* Stealthy
+* Persistent
+* Highly targeted
+
+**Attack Lifecycle**
+ 1. Initial intrusion
+ 2. Lateral movement
+ 3. Data exfiltratio
+ 4. Long-term persistence
+
+**Actors**
+Often nation-states or elite groups.
+
+**Key Point:** Focus on prolonged infiltration rather than immediate damage.
+
+---
+
+## 🌍 Real-World Case Studies
+
+### Equifax Breach (2017)
+
+Attackers exploited an unpatched vulnerability to access sensitive consumer data.
+
+**Type:** Web vulnerability exploitation
+
+**What happened**
+ * Unpatched web application vulnerability
+ * Attackers accessed sensitive consumer data
+
+**Impact**
+ * Data of millions exposed
+ * Massive legal and financial consequences
+
+**Lessons**
+ * Patch management critical
+ * Vulnerability scanning essential
+
+---
+
+### WannaCry Ransomware (2017)
+
+A worm-based ransomware attack that encrypted systems globally.
+
+**Type:** Worm-based ransomware
+
+**What happened**
+ * Exploited Windows SMB vulnerability
+ * Rapid global spread
+
+**Impact**
+ * Hospitals shut down
+ * Critical systems locked
+
+**Lessons**
+ * Timely updates vital
+ * Backup strategy required
+
+---
+
+## 🛰 Nation-State APT Examples
+
+### Stuxnet
+
+Advanced malware targeting industrial control systems.
+
+**Characteristics**
+ * Highly advanced malware 
+ * Physical system disruption
+ * Precision targeting 
+
+**Significance:** Demonstrated cyberattacks can cause physical damage.
+
+---
+
+### SolarWinds Attack
+
+Supply chain compromise through malicious software updates.
+
+**Type:** Supply chain compromise
+**Method**
+ * Malicious code inserted into software update
+ * Spread to many organizations
+
+**Significance:** Showed the large-scale impact of trusted software infiltration.
+
+---
+
 
